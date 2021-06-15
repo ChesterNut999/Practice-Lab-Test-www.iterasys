@@ -13,9 +13,9 @@ public class Medidas {
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //CHAMADAS DE MÉTODOS
     public static void main(String[] args) {
-        condicionalIf();
-        condicionalSwitch();
-        capturaDeDadosScannerJava();
+        //condicionalIf();
+        //condicionalSwitch();
+       // capturaDeDadosScannerJava();
         repeticaoFor();
     }
 
@@ -105,8 +105,15 @@ public class Medidas {
 
         System.out.println("");
 
-        System.out.print("Contagem descrescente de 2 em 2: ");
-        for(int num0 = 10; num0 > -1; num0--) {
+        System.out.print("Contagem decrescente n° pares: ");
+        for(int num0 = 10; num0 >= -1; num0-= 2) {
+            System.out.print(num0 + " | ");
+        }
+
+        System.out.println("");
+
+        System.out.print("Contagem crescente n° impares: ");
+        for(int num0 = 1; num0 <= 10; num0+= 2) {
             System.out.print(num0 + " | ");
         }
 
