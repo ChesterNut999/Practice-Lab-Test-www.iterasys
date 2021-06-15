@@ -15,8 +15,12 @@ public class Medidas {
     public static void main(String[] args) {
         //condicionalIf();
         //condicionalSwitch();
-       // capturaDeDadosScannerJava();
-        repeticaoFor();
+        //capturaDeDadosScannerJava();
+        //repeticaoFor();
+
+        //
+        System.out.println("O comprimento do circulo é de "+ calcularComprimentoCirculo());
+
     }
 
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -139,6 +143,14 @@ public class Medidas {
 
         System.out.println("Para largura de " + largura + "m e comprimento de " + comprimento + "m, a área é de " + resultado + "m².");
         System.out.println("");
+    }
+
+    public static Double calcularComprimentoCirculo(){
+        Double pi = 3.14;
+        Integer raio = 8;
+        Double comprimento = 2*pi*raio;
+
+        return comprimento;
     }
 
 }
