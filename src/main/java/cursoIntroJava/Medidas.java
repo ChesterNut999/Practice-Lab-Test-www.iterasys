@@ -2,7 +2,6 @@
 package cursoIntroJava;
 
 //2 - Referências as Bibliotecas/
-import java.util.Locale;
 import java.util.Scanner;
 
 //3 - Classe (Programação)
@@ -13,12 +12,12 @@ public class Medidas {
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //CHAMADAS DE MÉTODOS
     public static void main(String[] args) {
-        //condicionalIf();
-        //condicionalSwitch();
-        //capturaDeDadosScannerJava();
-        //repeticaoFor();
+        condicionalIf();
+        condicionalSwitch();
+        capturaDeDadosScannerJava();
+        repeticaoFor();
 
-        //
+        //Método calculá comprimento
         System.out.println("O comprimento do circulo é de "+ calcularComprimentoCirculo());
 
     }
